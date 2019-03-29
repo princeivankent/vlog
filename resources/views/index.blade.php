@@ -8,10 +8,10 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        <link rel="stylesheet" href="{{ url('public/css/app.css') }}">
+        <link rel="stylesheet" href="https://my-vlog.herokuapp.com/public/css/app.css">
     </head>
     <body>
         <div id="app"></div>
-        <script src="{{ url('public/js/app.js') }}"></script>
+        <script src="https://my-vlog.herokuapp.com/public/js/app.js"></script>
     </body>
 </html>
