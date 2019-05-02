@@ -6,3 +6,8 @@ jobs:
     steps:
       - checkout # check out the code in the project directory
       - run: echo $SSH_LIN_HOST # run the `echo` command
+    steps:
+      - run:
+          name: Deploy Over SSH
+          command: |
+            ssh $SSH_LIN_USER@$SSH_LIN_HOST
